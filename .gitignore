@@ -1,0 +1,23 @@
+# Terraform generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# Provider binaries (Windows)
+*.exe
+
+# Provider binaries (Linux/Mac)
+terraform-provider-*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Ignore override files
+*_override.tf
+*_override.tf.json
+
+# Ignore plan files
+*.tfplan
