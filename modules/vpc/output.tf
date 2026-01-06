@@ -9,3 +9,9 @@ output "aws_eip" {
   value       = aws_eip.nat_eip[*].id
 }
 
+output "pvt_subnet_cidrs" {
+  description = "pvt subnet CIDR"
+  value       = aws_subnet.pvt_subnet[*].id
+
+}
+
